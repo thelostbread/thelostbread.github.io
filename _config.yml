@@ -1,42 +1,37 @@
 # Site settings
-title: Freelancer
+title: The Lost Bread
 email: your-email@domain.com
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "French Toast and Milk Shakes."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: FFF #80B3FF
+  secondary: 262626 #FD6E8A
+  secondary-dark: 262626 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: The Lost Bread
   location: Location
-  social: Around the Web
-  credits: Credits
+  social: Follow Us
+  phone: Phone
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/thelostbread
+  - title: instagram
+    url: http://instagram.com/thelostbread_
+  
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 91 Maginhawa St. UP Village
+  - line: Quezon City, Philippines
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+phone: '+63917 821 2111.'
 
 # Build settings
 markdown: kramdown
