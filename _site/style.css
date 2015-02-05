@@ -535,7 +535,7 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #262626;
 }
 
@@ -544,7 +544,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding: 0px 0;
     background-color: #262626;
 }
 
@@ -686,6 +686,10 @@ footer .footer-below {
 .border {
     border-radius: 10px;
 }
+
+#map-canvas {
+        /*btn-*/
+      }
 
 
 .navbar-custom {

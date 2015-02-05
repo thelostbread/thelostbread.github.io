@@ -5,6 +5,7 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -22,6 +23,7 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
+
 
 // Floating label headings for the contact form
 $(function() {

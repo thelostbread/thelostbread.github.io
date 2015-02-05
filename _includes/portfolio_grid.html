@@ -6,8 +6,6 @@
                 <div class="col-lg-12 text-center">
                     <h2>Menu</h2>
                     <hr class="star-primary">
-
-
                 </div>
             </div>
             <div class="col-md-12">
@@ -15,7 +13,6 @@
                     <h3><i class="fa fa-cutlery"></i> &nbspSavory&nbsp <i class="fa fa-cutlery"></i></h3>
                     <hr class="star-light">
                     
-                   
                 </div>
                  <div class="row center">
                     {% for post in site.categories.savory %}
@@ -38,8 +35,6 @@
                  <div class="col-lg-12 text-center">
                     <h3><i class="fa fa-cutlery"></i> &nbspSweet&nbsp <i class="fa fa-cutlery"></i></h3>
                     <hr class="star-light">
-                    
-                   
                 </div>
                 <div class="row center">
                 {% for post in site.categories.sweet %}
@@ -55,7 +50,10 @@
                         <p class="text-center">{{ post.title}}</p>
                     </div>
                 {% endfor %}
+                </div>
             </div>
+            <div class="col-md-4 col-md-offset-4">
+                <button class="btn btn-block btn-lg btn-primary"> See Menu</button>
             </div>
             
         </div>
