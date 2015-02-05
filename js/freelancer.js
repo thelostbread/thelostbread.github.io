@@ -47,13 +47,15 @@ $('.navbar-collapse ul li a').click(function() {
 
 //Carousel
 $(function(){
-    $('#center').slick({
-      dots: true,
+    $('.center').slick({
+      dots: false,
+      centerMode: true,
+      
       // prevArrow: '<span class="fa fa-arrow-left slick-prev"></span>',
       // nextArrow: '<span class="fa fa-arrow-right"></span>',
       infinite: true,
       speed: 300,
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
       responsive: [
         {
@@ -62,7 +64,7 @@ $(function(){
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
